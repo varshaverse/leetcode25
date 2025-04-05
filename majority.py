@@ -9,5 +9,5 @@ class Solution(object):
         element_dict = dict(element_counts) #check dictionary
         for k,v in element_dict.items(): #for loop
             if v >len(nums)/2: # check the condition again, why v ask urself, v tells us how many times it appears? 
-                return k
+                return k #return element 
         
